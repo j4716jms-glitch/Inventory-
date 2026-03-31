@@ -1,0 +1,33 @@
+export const CATEGORIES = [
+  'All',
+  'Electronics',
+  'Apparel',
+  'Home & Kitchen',
+  'Sports',
+  'Tools & Hardware',
+  'Beauty',
+  'Office Supplies',
+];
+
+export const initialProducts = [
+  { id: 'PRD-001', name: 'Wireless Headphones Pro', category: 'Electronics', sku: 'EL-WHP-001', stock: 142, price: 89.99, status: 'In Stock', supplier: 'TechWave Ltd' },
+  { id: 'PRD-002', name: 'USB-C Hub 7-Port', category: 'Electronics', sku: 'EL-UCH-002', stock: 58, price: 34.99, status: 'In Stock', supplier: 'TechWave Ltd' },
+  { id: 'PRD-003', name: 'Mechanical Keyboard TKL', category: 'Electronics', sku: 'EL-MKB-003', stock: 23, price: 129.00, status: 'Low Stock', supplier: 'KeyForge Inc' },
+  { id: 'PRD-004', name: 'Running Shoes AirFlex', category: 'Sports', sku: 'SP-RSH-004', stock: 0, price: 74.99, status: 'Out of Stock', supplier: 'ActiveGear Co' },
+  { id: 'PRD-005', name: 'Yoga Mat Premium', category: 'Sports', sku: 'SP-YMP-005', stock: 310, price: 29.99, status: 'In Stock', supplier: 'ActiveGear Co' },
+  { id: 'PRD-006', name: 'Stainless Steel Water Bottle', category: 'Sports', sku: 'SP-SSW-006', stock: 87, price: 19.99, status: 'In Stock', supplier: 'HydroLife' },
+  { id: 'PRD-007', name: 'Non-Stick Cookware Set', category: 'Home & Kitchen', sku: 'HK-NSC-007', stock: 15, price: 159.99, status: 'Low Stock', supplier: 'CookMaster' },
+  { id: 'PRD-008', name: 'Air Fryer 5.8Qt', category: 'Home & Kitchen', sku: 'HK-AFR-008', stock: 44, price: 89.99, status: 'In Stock', supplier: 'CookMaster' },
+  { id: 'PRD-009', name: 'Cotton Crew T-Shirt (Pack 3)', category: 'Apparel', sku: 'AP-CCT-009', stock: 0, price: 24.99, status: 'Out of Stock', supplier: 'ThreadCo' },
+  { id: 'PRD-010', name: 'Slim Fit Chinos', category: 'Apparel', sku: 'AP-SFC-010', stock: 203, price: 44.99, status: 'In Stock', supplier: 'ThreadCo' },
+  { id: 'PRD-011', name: 'Winter Puffer Jacket', category: 'Apparel', sku: 'AP-WPJ-011', stock: 19, price: 119.99, status: 'Low Stock', supplier: 'NorthEdge' },
+  { id: 'PRD-012', name: 'Power Drill 18V', category: 'Tools & Hardware', sku: 'TH-PD-012', stock: 33, price: 69.99, status: 'In Stock', supplier: 'BuildRight' },
+  { id: 'PRD-013', name: 'Socket Wrench Set 40pc', category: 'Tools & Hardware', sku: 'TH-SW-013', stock: 76, price: 49.99, status: 'In Stock', supplier: 'BuildRight' },
+  { id: 'PRD-014', name: 'Retinol Night Cream', category: 'Beauty', sku: 'BT-RNC-014', stock: 8, price: 39.99, status: 'Low Stock', supplier: 'GlowLabs' },
+  { id: 'PRD-015', name: 'SPF 50 Sunscreen 150ml', category: 'Beauty', sku: 'BT-SUN-015', stock: 134, price: 14.99, status: 'In Stock', supplier: 'GlowLabs' },
+  { id: 'PRD-016', name: 'Ergonomic Office Chair', category: 'Office Supplies', sku: 'OS-EOC-016', stock: 11, price: 249.99, status: 'Low Stock', supplier: 'DeskPro' },
+  { id: 'PRD-017', name: 'A4 Printer Paper (500 sheets)', category: 'Office Supplies', sku: 'OS-APP-017', stock: 0, price: 8.99, status: 'Out of Stock', supplier: 'OfficeBase' },
+  { id: 'PRD-018', name: 'Wireless Mouse & Keyboard Combo', category: 'Electronics', sku: 'EL-WMK-018', stock: 61, price: 49.99, status: 'In Stock', supplier: 'KeyForge Inc' },
+  { id: 'PRD-019', name: '4K Webcam 60fps', category: 'Electronics', sku: 'EL-4KW-019', stock: 27, price: 99.00, status: 'In Stock', supplier: 'TechWave Ltd' },
+  { id: 'PRD-020', name: 'Resistance Bands Set', category: 'Sports', sku: 'SP-RBS-020', stock: 189, price: 17.99, status: 'In Stock', supplier: 'ActiveGear Co' },
+];
